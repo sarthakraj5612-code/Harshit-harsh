@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshit Harsh - Resume</title>
+  <style>
+    /* ===== General Styles ===== */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      margin: 0 0 10px 0;
+    }
+
+    a {
+      color: #1f4e79;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Header ===== */
+    .header {
+      background: linear-gradient(135deg, #1f4e79, #3ca0dc);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    .header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    /* ===== Main Container ===== */
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+
+    /* ===== Card Sections ===== */
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .card h2 {
+      color: #1f4e79;
+      border-bottom: 2px solid #3ca0dc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    /* ===== Contact Info ===== */
+    .contact div {
+      display: inline-block;
+      width: 48%;
+      vertical-align: top;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+
+    /* ===== Education Table ===== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table th, table td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #eee;
+    }
+    table thead {
+      background: #eaf4fb;
+    }
+    table th {
+      color: #1f4e79;
+    }
+
+    /* ===== Skills ===== */
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      margin-bottom: 12px;
+    }
+    .bar {
+      height: 10px;
+      background: #e0e0e0;
+      border-radius: 5px;
+      overflow: hidden;
+      width: 100%;
+    }
+    .bar span {
+      display: block;
+      height: 100%;
+      background: #3ca0dc;
+    }
+
+    /* ===== Footer ===== */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f4e79;
+      color: white;
+      margin-top: 30px;
+    }
+
+    /* ===== Responsive ===== */
+    @media(max-width: 600px) {
+      .contact div {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>HARSHIT HARSH</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Contact Information -->
+    <section class="card">
+      <h2>Contact Information</h2>
+      <div class="contact">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:harshitharsh1704@gmail.com">harshitharsh1704@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+917667580767">+91-7667580767</a></p>
+        </div>
+        <div>
+          <p><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+      <h2>Education</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Institution</th>
+            <th>Class</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dr. D. Y. Patil Pushpalata Patil International School</td>
+            <td>10th</td>
+            <td>76.7%</td>
+          </tr>
+          <tr>
+            <td>Krishna Public School</td>
+            <td>12th</td>
+            <td>69%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Skills -->
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <ul>
+          <li>
+            <strong>HTML</strong> - Intermediate
+            <div class="bar"><span style="width:70%;"></span></div>
+          </li>
+          <li>
+            <strong>CSS</strong> - Novice
+            <div class="bar"><span style="width:40%;"></span></div>
+          </li>
+          <li>
+            <strong>JavaScript</strong> - Novice
+            <div class="bar"><span style="width:40%;"></span></div>
+          </li>
+          <li>
+            <strong>Python</strong> - Intermediate
+            <div class="bar"><span style="width:70%;"></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="card">
+      <h2>Projects</h2>
+      <p class="placeholder">Details of your projects would go here...</p>
+    </section>
+
+    <!-- About Me -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer with a keen interest in creating dynamic
+        and responsive web applications. My goal is to leverage my skills in
+        HTML, CSS, and JavaScript to build user-friendly interfaces and enhance
+        user experiences.
+      </p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Harshit Harsh. All rights reserved.</p>
+  </footer>
+</body>
+</html>
